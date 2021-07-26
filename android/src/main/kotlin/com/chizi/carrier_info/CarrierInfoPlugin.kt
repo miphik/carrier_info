@@ -48,7 +48,7 @@ class CarrierInfoPlugin: FlutterPlugin,
   }
 
   override fun onDetachedFromActivity() {
-    onDetachedFromActivity()
+    //onDetachedFromActivity()
   }
   private fun teardownChannel() {
     channel?.setMethodCallHandler(null)
